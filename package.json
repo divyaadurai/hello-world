@@ -1,0 +1,18 @@
+{
+  "name": "mockup",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Twitter Mockup",
+  "repository": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0",
+	"npm-sass": "2.2.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 .",
+	"build-css": "node-sass --include-path scss css/main.scss css/main.css"
+  }
+}
